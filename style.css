@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    /*This is the universal selector for everything in the page.*/
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(128, 128, 128);
+    text-align: center;
+    color: white;  
+}   
+
+body{
+    /*The padding and margin elements are for the spacing around the body.*/
+    margin:30px;
+    padding: 30px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+}
+
+.insta-redirect{
+    text-decoration: none;
+    color: cornsilk;
+}
+
+.main-heading{
+    /*This Selector only impacts the main heading.*/
+    font-size: 35px;
+}
+
+.btn{
+    /*This class is for showing my contact links in individual lines.*/
+    display: block;
+    text-decoration: none;/*This removes the lines on the links.*/
+    background:rgb(84, 84, 84) ;
+    margin: 16px;
+    padding: 30px;
+    box-shadow:0 5px 5px rgb(62, 62, 62);
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: white;
+    color: black;
+    transition: 0.85s;
+    
+}
+.social-icons{
+    /*This is for the spacing between the whole icons and the text.*/
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.social-icon{
+    padding: 5px;
+}
